@@ -1,0 +1,4 @@
+function eF_EventDispatcher()
+{
+
+}
