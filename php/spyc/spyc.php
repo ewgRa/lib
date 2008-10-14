@@ -1,4 +1,7 @@
 <?php
+//FIXME: 0.2.5 - rev. 5, 0.3 - rev. 11, get from spyc repository this builds
+
+
   /**
    * Spyc -- A Simple PHP YAML Class
    * @version 0.2.(5) -- 2006-12-31
