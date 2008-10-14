@@ -1,4 +1,0 @@
-function eF_EventDispatcher()
-{
-
-}
