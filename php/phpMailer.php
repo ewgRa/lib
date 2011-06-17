@@ -361,7 +361,7 @@ class PHPMailer
         $body = $this->CreateBody();
 
         if($body == "") { return false; }
-
+        
         // Choose the mailer
         switch($this->Mailer)
         {
