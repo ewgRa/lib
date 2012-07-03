@@ -12,6 +12,7 @@ Ext.selectCaseForNumber=function(number, cases) {if ((number % 10) == 1 && (numb
 
 Ext.override(Ext.Element, {
 	setValue: function(value){this.set({'value': value});this.dom.value=value;return this;},
+	selectOne: function(selector, unique, root) {return this.select(selector, unique, root).item(0);},
 	getDom: function(){return this.dom;},
 	getInnerHtml: function(){return this.dom.innerHTML;},
 	clone: function(){cloned = this.dom.cloneNode(true); cloned.id = null; cloned.removeAttribute('id'); return Ext.get(cloned);},
